@@ -1,0 +1,5 @@
+version: "3"
+services:
+  master:
+    build: .
+    command: ["mpirun", "-n", "3", "./calcular_pi"]
